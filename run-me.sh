@@ -1,7 +1,5 @@
 #! /bin/sh
 
-CURL=$(which curl)
-[ "$?" == "0" ] || exit 1 # you need curl
 XCLIP=$(which xclip)
 [ "$?" == "0" ] || exit 2 # you need xclip
 
